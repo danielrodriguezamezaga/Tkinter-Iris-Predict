@@ -24,14 +24,14 @@ def predict():
     petal_width.delete(0, tk.END)
 
 ventana.title("ubicacioón en la pantalla")
-ventana.geometry("500x500")
+ventana.geometry("350x350")
 
 ventana.resizable(0,0)
 
 tk.Label(ventana, text="Ingrese los datos:").grid(row=1, column=0)
 tk.Label(ventana, text=" Sepal Length ").grid(row=2, column=0)
 tk.Label(ventana, text=" Sepal width").grid(row=3, column=0)
-tk.Label(ventana, text=" Petal width").grid(row=4, column=0)
+tk.Label(ventana, text=" Petal Length").grid(row=4, column=0)
 tk.Label(ventana, text=" Petal width").grid(row=5, column=0)
 
 sepal_length = tk.Entry(ventana)
